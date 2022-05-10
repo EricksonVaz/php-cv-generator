@@ -32,7 +32,7 @@ use app\Router;
                 <div class="form-validation"><?= Router::getParrams("fullname") ?></div>
             </div>
             <div class="form-group grow-1">
-                <label for="role">Formação / Função / Especialidade</label>
+                <label for="role">Formação / Especialidade</label>
                 <input type="text" name="role" class="form-control" placeholder="qual a sua formação / especialidade..." required>
                 <div class="form-validation"><?= Router::getParrams("role") ?></div>
             </div>
