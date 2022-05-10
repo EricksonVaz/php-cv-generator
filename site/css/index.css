@@ -1,0 +1,142 @@
+.main-title{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+.form-generator{
+    width: 600px;
+    margin: 0 auto;
+}
+.group-inputs{
+    background-color: white;
+    color: rgb(59, 59, 59);
+    padding: .5rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-height: 330px;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-group label,.form-sub-title{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.form-control{
+    padding: .5rem;
+    font-size: 1.5rem;
+    border: 1px solid rgb(162, 162, 162);
+    outline: none;
+    width: 100%;
+}
+.form-generator .row{
+    display: flex;
+    gap: .5rem;
+}
+.grow-1{
+    flex-grow: 1;
+}
+.btn-add-new,.btn-submit{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(44, 179, 44, 0.744);
+    color: white;
+    border: 1px solid transparent;
+}
+.row-cols{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    max-height: 250px;
+    gap: 1rem;
+    padding: 1rem;
+}
+.inputs-container{
+    max-width: 50%;
+    display: flex;
+}
+.remove-item,.remove-project{
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 2px;
+}
+.remove-project{
+    border-radius: 0;
+}
+.container-tecnical-skill,.container-list-horizontal{
+    width: 100%;
+    overflow-x: auto;
+}
+.container-tecnical-skill .inputs-container{
+    display: grid;
+    grid-template-columns: 1fr repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid rgb(108, 108, 108);
+    border-collapse: collapse;
+}
+.container-tecnical-skill input{
+    border-radius: 0;
+    border-width: .5px;
+}
+.container-tecnical-skill .remove-tec{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.container-tecnical-skill input:nth-of-type(1) {
+    grid-row: 1/2;
+    grid-column: 2/9;
+}
+.container-tecnical-skill input:nth-of-type(2) {
+    grid-row: 2;
+    grid-column: 1/5;
+}
+.container-tecnical-skill input:nth-of-type(3) {
+    grid-row: 2;
+    grid-column: 5/9;
+}
+.legend-container{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.group-inputs.tecnical-container{
+    max-height: 400px;
+}
+.group-inputs.projects-container{
+    max-height: max-content;
+}
+.container-projects-list{
+    margin-top: 1.5rem;
+}
+.project-desc-container{
+    border-bottom: 2px solid gray;
+    padding-bottom: 1rem;
+}
+.btn-submit{
+    background-color: rgb(0, 145, 255);
+    border: 1px solid white;
+}
+.main-footer{
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-top: 2rem;
+    text-align: center;
+    padding: 3rem;
+}
+.form-validation{
+    color: tomato;
+    font-size: 1.4rem;
+}
+
+@media all and (max-width:634px){
+    .form-generator {
+        width: 95%;
+    }
+}

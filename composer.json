@@ -1,0 +1,19 @@
+{
+    "name": "user/php-cv-generator",
+    "description": "Um projecto PHP simples que permite gerar Curriculon Vitae para programadores num formato simples e exclarecedor, pronto para enviar para qualquer concurso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erickson Vaz",
+            "email": "ericksoncv1@outlook.com"
+        }
+    ],
+    "require": {
+        "spipu/html2pdf": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/"
+        }
+    }
+}
