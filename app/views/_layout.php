@@ -15,7 +15,7 @@
     <meta name="rating" content="mature">
     <base href="./">
     <title>Gerador Curriculum Vitae PDF</title>
-    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="css/style.css?v=2">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -24,8 +24,8 @@
 
 <body>
     <?= $content ?>
-    <script src="js/sweetalert.min.js?v=1"></script>
-    <script src="js/app.js?v=1"></script>
+    <script src="js/sweetalert.min.js?v=2"></script>
+    <script src="js/app.js?v=2"></script>
 </body>
 
 </html>
