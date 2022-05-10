@@ -13,7 +13,7 @@
     padding: .5rem;
     border-radius: 10px;
     margin-bottom: 10px;
-    max-height: 330px;
+    max-height: max-content;
 }
 .form-group{
     margin-bottom: 1rem;
@@ -138,5 +138,19 @@
 @media all and (max-width:634px){
     .form-generator {
         width: 95%;
+    }
+}
+@media all and (max-width:395px){
+    .form-generator .row {
+        flex-direction: column;
+    }
+    .row-cols{
+        flex-wrap: nowrap;
+        max-height: 200px;
+        overflow: scroll;
+    }
+    .inputs-container {
+        max-width: 100%;
+        display: flex;
     }
 }
